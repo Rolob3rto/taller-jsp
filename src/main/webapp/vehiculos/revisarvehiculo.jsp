@@ -14,10 +14,10 @@
     String color = request.getParameter("color");
     String revisado = null;
 
-    if (request.getParameter("revisado") == 'N'){
-        revisado = 'S';
+    if (request.getParameter("revisado").equals("N")){
+        revisado = "S";
     } else {
-        revisado = 'N';
+        revisado = "N";
     }
 
     Vehiculo vehiculo = new Vehiculo();

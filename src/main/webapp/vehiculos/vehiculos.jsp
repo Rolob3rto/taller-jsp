@@ -39,7 +39,7 @@
                 for(Vehiculo vehiculo: vehiculos) {
                     out.print("<tr>");
                     out.print("<td>" + vehiculo.getMatricula() + "</td>");
-                    out.print("<td>" + vehiculo.getTitulo() + "</td>");
+                    out.print("<td>" + vehiculo.getMarca() + "</td>");
                     out.print("<td>" + vehiculo.getModelo() + "</td>");
                     out.print("<td>" + vehiculo.getColor() + "</td>");
                     out.print("<td>" + vehiculo.getRevisado() + "</td>");
