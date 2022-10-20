@@ -32,17 +32,17 @@
 </head>
 <body>
 
-    <form action="modificarvehiculo.jsp" method="post">
+    <form action="revisarvehiculo.jsp" method="post">
         <label for="matricula">matricula</label>
-        <input type="text" name="matricula" id="matricula" value="<%= vehiculo.getMatricula()%>">
+        <input type="hidden" name="matricula" id="matricula" value="<%= vehiculo.getMatricula()%>">
         <label for="marca">marca</label>
-        <input type="text" name="marca" id="marca" value="<%= vehiculo.getMarca()%>">
+        <input type="hidden" name="marca" id="marca" value="<%= vehiculo.getMarca()%>">
         <label for="modelo">modelo</label>
-        <input type="text" name="modelo" id="modelo" value="<%= vehiculo.getModelo()%>">
+        <input type="hidden" name="modelo" id="modelo" value="<%= vehiculo.getModelo()%>">
         <label for="color">color</label>
-        <input type="text" name="color" id="color" value="<%= vehiculo.getColor()%>">
+        <input type="hidden" name="color" id="color" value="<%= vehiculo.getColor()%>">
         <label for="revisado">revisado</label>
-        <input type="text" name="revisado" id="revisado" value="<%= vehiculo.getRevisado()%>">
+        <input type="hidden" name="revisado" id="revisado" value="<%= vehiculo.getRevisado()%>">
         <input type="submit" value="Modificar">
 
     </form>
