@@ -30,6 +30,7 @@
             <th>Marca</th>
             <th>Modelo</th>
             <th colspan="2"><a href="nuevovehiculo.jsp">Nuevo</a></th>
+            <th colspan="2"><a href="bajatodos.jsp">Borrar todos</a></th>
         </tr>
             <%
 

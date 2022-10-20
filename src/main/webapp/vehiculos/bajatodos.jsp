@@ -16,9 +16,11 @@
 
     List<Vehiculo> vehiculos = (List) session.getAttribute("vehiculos");
 
-    vehiculos.remove(vehiculo);
+    vehiculos.remove();
 
-    session.setAttribute("vehiculos", vehiculos);
+    //session.removeAttribute("vehiculos");
+
+    //session.setAttribute("vehiculos", vehiculos);
 
     response.sendRedirect("vehiculos.jsp");
 
